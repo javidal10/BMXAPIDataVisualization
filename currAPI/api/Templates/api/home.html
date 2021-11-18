@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LIST OF ALL UDIS</h1>
+    <H2>date and value</H2>
+    <span id="info" >{{dat}}</span>
+    <h3>max value</h3>
+    {{max}}
+    <h3>avg</h3>
+    {{avg}}
+    <h3>min</h3>
+    {{min}}
+
+    <canvas id="myChart" width="200vh" height="100vh"></canvas>
+
+    <h1>List of Price per USD</h1>
+    <H2>date and value</H2>
+    <span id="DollarInfo">{{usdat}}</span>
+    <h3>max MX/USD value</h3>
+    {{maxd}}
+    <h3> MX/USD avg</h3>
+    {{avgd}}
+    <h3> MX/USD min</h3>
+    {{mind}}
+
+    <canvas id="myDollarChart" width="200vh" height="100vh"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" type="text/javascript"></script>
+    <script src="{% static 'script.js'%}" type="text/javascript"></script>
+</body>
+
+</html>
