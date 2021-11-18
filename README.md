@@ -18,8 +18,8 @@ This repo contains a web application that obtains the values of UDIS and USD by 
 - Setup local MySql database and use django migrations 
 
     ```sh
-    python Pokemon/manage.py makemigrations
-    python Pokemon/manage.py migrate
+    python currAPI/manage.py makemigrations
+    python currAPI/manage.py migrate
     # This will setup the local database based on django models. Make sure you are in the same directory as manage.py file
     ```
 - Run the server as follows:
