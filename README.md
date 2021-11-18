@@ -1,6 +1,6 @@
 # BMXAPIDataVisualization
 
-This repo contains a web application to obtain the values of UDIS and USD by querying the API
+This repo contains a web application that obtains the values of UDIS and USD by querying the API
 [BMXApi](https://www.banxico.org.mx/SieAPIRest/service/v1/;jsessionid=5fa4f900baccc38cd60cb4f38981).  It shows the values from the selected  date range including a graph, an average value, minimum value and a maximum value in the date range.
 
 
